@@ -26,7 +26,6 @@ public class ListaAlunosActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent intentVaiProFormulario = new Intent(ListaAlunosActivity.this, FormularioActivity.class);
                 startActivity(intentVaiProFormulario);
-
             }
         });
     }
@@ -37,19 +36,13 @@ public class ListaAlunosActivity extends AppCompatActivity {
         carregaLista();
     }
 
-     public void carregaLista(){
-        //String[] alunos = {"Daniel", "Ronaldo", "Jefferson", "Felipe","Daniel", "Ronaldo", "Jefferson", "Felipe"};
-        AlunoDAO  dao = new AlunoDAO(this);
+    private void carregaLista() {
+        AlunoDAO dao = new AlunoDAO(this);
         List<Aluno> alunos = dao.buscaAlunos();
-                dao.close();
+        dao.close();
 
         ListView listaAlunos = (ListView) findViewById(R.id.lista_alunos);
         ArrayAdapter<Aluno> adapter = new ArrayAdapter<Aluno>(this, android.R.layout.simple_list_item_1, alunos);
-                listaAlunos.setAdapter(adapter);
-
-     }
-
-
-
-
+        listaAlunos.setAdapter(adapter);
+    }
 }

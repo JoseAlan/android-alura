@@ -11,28 +11,26 @@ import java.util.List;
 
 import br.com.alura.agenda.modelo.Aluno;
 
-/**
- * Created by alan1 on 16/08/2017.
- */
-
 public class AlunoDAO extends SQLiteOpenHelper {
 
     public AlunoDAO(Context context) {
         super(context, "Agenda", null, 1);
     }
 
+    @Override
     public void onCreate(SQLiteDatabase db) {
-        String sql = "CREATE TABLE Alunos (id INTEGER PRIMARY KEY, nome TEXT NOT NULL, endereco TEXT, telefone TEXT, site TEXT, nota REAL);";
+        String sql = "CREATE TABLE Alunos (id INTEGER PRIMARY KEY, nome TEXT NOT NULL, endereco TEXT, telefone TEXT, site TEXT, nota REAL)";
         db.execSQL(sql);
     }
 
-    public void onUpgrade(SQLiteDatabase db, int versaoAntiga, int versaoNova) {
-        String sql = "DROP TABLE IF EXISTS Alunos;";
+    @Override
+    public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
+        String sql = "DROP TABLE IF EXISTS Alunos";
         db.execSQL(sql);
         onCreate(db);
     }
 
-    public  void insere(Aluno aluno){
+    public void insere(Aluno aluno) {
         SQLiteDatabase db = getWritableDatabase();
 
         ContentValues dados = new ContentValues();
@@ -42,17 +40,16 @@ public class AlunoDAO extends SQLiteOpenHelper {
         dados.put("site", aluno.getSite());
         dados.put("nota", aluno.getNota());
 
-
         db.insert("Alunos", null, dados);
-
     }
 
-    public List<Aluno> buscaAlunos(){
-
+    public List<Aluno> buscaAlunos() {
+        String sql = "SELECT * from Alunos;";
         SQLiteDatabase db = getReadableDatabase();
-        Cursor c = db.rawQuery("SELECT * FROM Alunos;", null);
-        List<Aluno> alunos = new ArrayList<Aluno>();
-        while (c.moveToNext()) {
+        Cursor c = db.rawQuery(sql, null);
+
+        List<Aluno> alunos = new ArrayList<>();
+        while(c.moveToNext()){
             Aluno aluno = new Aluno();
             aluno.setId(c.getLong(c.getColumnIndex("id")));
             aluno.setNome(c.getString(c.getColumnIndex("nome")));
@@ -65,5 +62,4 @@ public class AlunoDAO extends SQLiteOpenHelper {
         c.close();
         return alunos;
     }
-
 }
