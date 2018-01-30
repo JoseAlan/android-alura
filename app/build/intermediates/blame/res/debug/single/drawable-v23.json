@@ -1,5 +1,9 @@
 [
     {
+        "merged": "C:\\Users\\Alan\\AndroidStudioProjects\\android-alura\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "C:\\Users\\Alan\\.android\\build-cache\\2e031de8cbef28c676a3fcbd1b51bb90615a7221\\output\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
         "merged": "C:\\Users\\alan1\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
         "source": "C:\\Users\\alan1\\.android\\build-cache\\7869c703804e9c2623dd3a15f71d9ccd93292239\\output\\res\\drawable-v23\\abc_control_background_material.xml"
     }

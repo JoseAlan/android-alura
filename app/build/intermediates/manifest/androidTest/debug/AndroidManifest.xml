@@ -13,7 +13,7 @@
         android:label="Tests for br.com.alura.agenda"
         android:targetPackage="br.com.alura.agenda" />
 
-    <application>
+    <application android:debuggable="true" >
         <uses-library android:name="android.test.runner" />
     </application>
 

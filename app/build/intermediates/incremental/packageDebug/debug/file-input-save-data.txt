@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Jan 26 22:50:42 GMT-03:00 2018
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\Alan\\AndroidStudioProjects\\android-alura\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\19
+0.path=classes.dex
+0.set=DEX
+count=1

@@ -2,22 +2,94 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\alan1\AndroidStudioProjects\Agenda\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Alan\.android\build-cache\9e044b0df5c28c1651d2065762cbfb97ee3ea5bc\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
-        <dex dex="C:\Users\alan1\AndroidStudioProjects\Agenda\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_4190be9fc49bfe91ad1bf313c88e2ff378989d27\classes.dex" />
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="C:\Users\Alan\AndroidStudioProjects\android-alura\app\build\intermediates\pre-dexed\debug\classes_71c3b5b1523d8696c4a6571bfdda28eff5885e9d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\alan1\AndroidStudioProjects\Agenda\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="C:\Users\Alan\.android\build-cache\88a69ee36a703e105111d890fe310898919058ac\output\jars\classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.3"
-        sha1="63ad0040ca94d9972f4ebcd3ac080a02a574e2ed">
-        <dex dex="C:\Users\alan1\AndroidStudioProjects\Agenda\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_04e72207f49bae06b910801906217aeff6b2a8a6\classes.dex" />
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="C:\Users\Alan\AndroidStudioProjects\android-alura\app\build\intermediates\pre-dexed\debug\classes_50300e80bfb8db5036e4433c354d9f2c6e5d1b3f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alan\.android\build-cache\2e031de8cbef28c676a3fcbd1b51bb90615a7221\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="C:\Users\Alan\AndroidStudioProjects\android-alura\app\build\intermediates\pre-dexed\debug\classes_d254db2822e7a6ac248f6d2f697d79649f831402.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alan\.android\build-cache\54be777ec249ad831cbd2f353f54a09cb4e8627a\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="C:\Users\Alan\AndroidStudioProjects\android-alura\app\build\intermediates\pre-dexed\debug\classes_b061991a26c565a8b24fd18581e66f2b5bfd90e2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alan\.android\build-cache\131af4ad9e319c3258cb0cfebdf3bba67c4968f1\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="C:\Users\Alan\AndroidStudioProjects\android-alura\app\build\intermediates\pre-dexed\debug\classes_5e9b804ba6120cf5ea39ed9810e1c4b49b81cc6e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alan\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="C:\Users\Alan\AndroidStudioProjects\android-alura\app\build\intermediates\pre-dexed\debug\support-annotations-25.3.1_610c44da6465c471646c4f68895a9ebcfc03c8f2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alan\.android\build-cache\6ca04ce1959d1065f0b64ff44c9c8efc5b9ee294\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="C:\Users\Alan\AndroidStudioProjects\android-alura\app\build\intermediates\pre-dexed\debug\classes_d3d084bd47f5719aff00331d770fb4385e3430c9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alan\.android\build-cache\340b4e7ae94c6412b92f5adf9c700157d2cc1877\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="C:\Users\Alan\AndroidStudioProjects\android-alura\app\build\intermediates\pre-dexed\debug\classes_4c603ef0c450dc6def7da5e9652ef16f27b07469.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alan\.android\build-cache\d5b22df767f004c5b3def6fde213fdbdd4181b81\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="C:\Users\Alan\AndroidStudioProjects\android-alura\app\build\intermediates\pre-dexed\debug\classes_062834fab45209c1396dcb32b7be3227ca4ab934.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\Alan\.android\build-cache\a466824e157ef3ae5a650f8014f354e66acba9d3\output\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="C:\Users\Alan\AndroidStudioProjects\android-alura\app\build\intermediates\pre-dexed\debug\classes_91df1ad669036eead44230e86ddfd6ef692d2e2b.jar" />
     </item>
 
 </items>

@@ -2,5 +2,9 @@
     {
         "merged": "C:\\Users\\alan1\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\res\\merged\\debug\\raw\\msg.wav",
         "source": "C:\\Users\\alan1\\AndroidStudioProjects\\Agenda\\app\\src\\main\\res\\raw\\msg.wav"
+    },
+    {
+        "merged": "C:\\Users\\Alan\\AndroidStudioProjects\\android-alura\\app\\build\\intermediates\\res\\merged\\debug\\raw\\msg.wav",
+        "source": "C:\\Users\\Alan\\AndroidStudioProjects\\android-alura\\app\\src\\main\\res\\raw\\msg.wav"
     }
 ]

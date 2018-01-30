@@ -1,4 +1,4 @@
-#Tue Aug 08 00:15:05 BRT 2017
-base.0=C\:\\Users\\alan1\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3
+#Fri Jan 26 22:32:13 GMT-03:00 2018
+base.0=C\:\\Users\\Alan\\AndroidStudioProjects\\android-alura\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\4
+path.0=classes.dex
 renamed.0=classes.dex
-file.0=C\:\\Users\\alan1\\AndroidStudioProjects\\Agenda\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_3\\classes.dex
